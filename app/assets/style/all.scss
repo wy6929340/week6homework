@@ -1,0 +1,211 @@
+/*@import "helpers/base";*/
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/mixins";
+/**/
+@import "helpers/variables";
+@import "helpers/utilities";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/utilities/spacing";
+
+
+
+
+
+body {
+    font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Microsoft JhengHei", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.main{
+    
+}
+.header{
+    width: 100%;
+    background-color: transparent;
+    
+    top:0;
+    left:0;
+    z-index: 5;
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    
+    a{
+        font-size: 24px;
+        line-height: 77px;
+        color:$secondary;
+    }
+}
+.menuList-list{
+    margin-left: 8.6%;
+    a{
+        color: $white;
+    }
+}
+
+
+
+
+.footer-banner{
+    height: 400px;
+    /*background-image: url("../images/footer.jpg");
+    background-position: center center;
+    background-size: cover;*/
+    background:url("../images/footer.jpg") center/cover no-repeat;
+}
+.footer-p{
+    font-size: 48px;
+    color: $white;
+}
+.form-input{
+    border:none;
+    line-height: 56px;
+    width: 316px;
+}
+input[type="email" i] {
+    padding: 1px;
+    box-sizing: border-box;
+    background-color:transparent;
+    border: 1px solid #fff;
+}
+.form-btn{
+    background-color: $btn;
+    color: $white;
+    width: 160px;
+    padding: 0;
+    border:none;
+    line-height: 60px;
+    right:0;
+    top:0;
+    border-radius: 4px 0px 0px 4px;
+}
+.copyright{
+    background-color:$secondary;
+    .logo{
+        a{
+            color: $white;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
+    .copyright-txtspan{
+        color: #FFFFFF99;
+    }
+    .menuList-list{
+        a{
+            color: #FFFFFFDE;
+        }
+        
+    }
+}
+
+
+.banner-width{
+    width: 50%;
+}
+.banner-img{
+    height: 800px;
+    background-image: url("../images/banner.jpg");
+    background-position:98% 0%;
+    background-size:cover
+    
+}
+.banner-txt-content{
+    height: 328px;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin: auto;
+    h2{
+        font-size: 48px;
+    }
+    p{
+        font-size: 24px;
+        color:$third-color;
+    }
+}
+
+.main-contentList-list{
+    
+}
+.main-contentList-list:nth-child(2){
+
+}
+.main-content-txt h2{
+    font-size: 24px;
+}
+.main-content-txt p{
+    color:$third-color;
+}
+.main-content-txt a{
+    color: $btn;
+}
+.bottom-banner{
+    height: 400px;
+    background-image: url("../images/index-5.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.botom-banner-container{
+   /* top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;*/
+    height: 100%;
+}
+.bottom-banner-title h2{
+    font-size: 32px;
+    color: $primary;
+}
+.bottom-banner-span{
+    color: $four-color;
+}
+.bottom-banner-name{
+    color:$primary;
+    font-size: 24px;
+}
+.bottom-banner-ul li{
+    color:$btn;
+    font-size: 14px;
+}
+.bottom-banner-ul li:nth-child(2){}
+.productlistBox{
+    overflow: hidden;
+}
+.productList{
+    
+    flex-wrap: nowrap;
+}
+.productList li{
+    
+    overflow: hidden;
+    
+}
+.productList img{
+    height: 350px;
+    width: 100%;
+}

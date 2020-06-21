@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+
+  <div class="main position-rel">
+    <header class="header position-abs">
+      <div class="container">
+
+        <div class="nav row d-flex justify-content-space-b">
+          <div class="col-6">
+            <h1 class="logo "><a href="">CRAFTsMAN</a></h1>
+          </div>
+
+          <div class="col-6 d-flex justify-content-flex-e">
+            <ul class="menuList  d-flex  align-item-center justify-content-flex-e">
+              <li class="menuList-list ml-5 "><a href="">Product</a></li>
+              <li class="menuList-list ml-5 "><a href="">Blog</a></li>
+              <li class="menuList-list ml-5 "><a href="">Contact</a></li>
+              <li class="menuList-list ml-5 "><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+          </div>
+
+          </nav>
+        </div>
+
+
+      </div>
+    </header>
+    <%- contents %>
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="footer-banner">
+      <div class="container d-flex align-item-center h-100">
+        <div class="col-12 col-sm-12 col-md-5 col-xl-5 ">
+          <p class="footer-p font-blod">Subscribe for news and special offers!</p>
+          <form>
+            <div class="form-group position-rel ">
+
+              <input type="email" class="form-control form-input w-100" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+              <button type="submit" class=" btn btn-primary form-btn position-abs">Subscribe</button>
+            </div>
+
+
+
+          </form>
+
+        </div>
+
+
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 d-flex justify-content-space-b">
+            <div class="col-6 d-flex align-item-center">
+              <h1 class="logo"><a href="">CRAFTsMAN</a></h1>
+              <span class="copyright-txtspan fontfimaly-Roboto ml-3">© 2020. All Rights Reserved.</span>
+            </div>
+
+            <ul class="col-6 menuList d-flex align-item-center justify-content-flex-e">
+              <li class="menuList-list ml-5 fontfimaly-Roboto"><a href="">Purchase Policy</a></li>
+              <li class="menuList-list ml-5 fontfimaly-Roboto"><a href="">Privacy Policy</a></li>
+              <li class="menuList-list ml-5 fontfimaly-Roboto"><a href="">Terms & Conditions</a></li>
+            </ul>
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
